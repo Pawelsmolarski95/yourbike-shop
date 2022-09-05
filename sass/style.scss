@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+header {
+    
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    
+    
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+
+
+}
+.logo span {
+    color: rgb(23, 127, 156);
+    font-size: 28px;
+}
+.logo-span i {
+    font-size: 40px;
+    color: rgb(23, 127, 156);
+}
+.input {
+    display: flex;
+}
+.input input {
+    min-width: 400px;
+    height: 100%x;
+    font-size: 18px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 5px;
+    outline: none;
+}
+
+.span-input i {
+    font-size: 40px;
+    background-color: rgb(23, 127, 156);
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor:pointer;
+}
+.basket {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.basket h2 {
+    font-size: 26px;
+}
+.basket i {
+    font-size: 28px;
+    color:  rgb(23, 127, 156);
+    cursor: pointer;
+}
+
+// container + produkty i kategorie
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.brands {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    padding-top: 30px;
+    border: 1px solid black
+}
+.brands button {
+    color: black;
+    background-color:transparent;
+    border: none;
+    padding: 5px;
+}
+.brands button:hover{
+    background-color: black;
+    color:rgb(23, 127, 156);
+    cursor: pointer;
+}
+.our-brands-div button {
+    font-size: 26px;
+    
+}
+.brands-list {
+    display: flex;
+    gap: 40px;
+}
+.brands-list button  {
+    font-size: 22px;
+    
+}
